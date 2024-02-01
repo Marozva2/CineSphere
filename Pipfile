@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask-sqlalchemy = "*"
+sqlalchemy-serializer = "*"
+flask-restful = "*"
+flask-marshmallow = "*"
+flask-migrate = "*"
+faker = "*"
+flask-cors = "*"
+flask-bcrypt = "*"
+marshmallow-sqlalchemy = "*"
+flask-jwt-extended = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
